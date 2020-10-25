@@ -24,5 +24,9 @@ BeanDefinitionRegistryPostProcessor 类放入到容器中会放入到 BeanDefini
 
 spring 注册 bean 的流程：spring 注册配置文件中的 bean 到 BeanDefinitionMap 中，然后执行 BeanDefinitionMap 中该(BeanDefinitionRegistryPostProcessor extends BeanFactoryPostProcessor)类型中的处理器(Bean 工厂后置处理器)，然后通过 BeanDefinitionMap 中的 BeanDefinition 实例化 bean 对象，然后属性赋值，初始化，销毁。
 
-## 案例二: 工厂设计模式
+## 案例二: 工厂设计模式 模拟奖品发放
+
+## 案例三: 抽象工厂设计模式
+
+本案例中实现的是这样一种情况：业务初期使用的是 Redis 单机服务，使用的接口是 CacheService ,实现类是 CacheServiceImpl，需要做的是拓展 Redis 集群服务(IIR,EGM)后，不改变原来的业务调用接口，完成调用新来的集群服务。
 

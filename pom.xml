@@ -13,6 +13,7 @@
         <module>proxy-design-pattern</module>
         <module>factory-design-pattern</module>
         <module>abstract-factory-design-pattern</module>
+        <module>builder-design-patter</module>
     </modules>
 
     <dependencies>

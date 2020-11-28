@@ -17,6 +17,7 @@
         <module>prototype-design-pattern</module>
         <module>singleton-design-pattern</module>
         <module>adapter-design-pattern</module>
+        <module>bridge-design-pattern</module>
     </modules>
 
     <dependencies>

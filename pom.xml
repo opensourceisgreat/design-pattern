@@ -13,11 +13,12 @@
         <module>proxy-design-pattern</module>
         <module>factory-design-pattern</module>
         <module>abstract-factory-design-pattern</module>
-        <module>builder-design-patter</module>
+        <module>builder-design-pattern</module>
         <module>prototype-design-pattern</module>
         <module>singleton-design-pattern</module>
         <module>adapter-design-pattern</module>
         <module>bridge-design-pattern</module>
+        <module>decorator-design-pattern</module>
     </modules>
 
     <dependencies>

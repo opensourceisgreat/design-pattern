@@ -24,7 +24,9 @@ BeanDefinitionRegistryPostProcessor 类放入到容器中会放入到 BeanDefini
 
 spring 注册 bean 的流程：spring 注册配置文件中的 bean 到 BeanDefinitionMap 中，然后执行 BeanDefinitionMap 中该(BeanDefinitionRegistryPostProcessor extends BeanFactoryPostProcessor)类型中的处理器(Bean 工厂后置处理器)，然后通过 BeanDefinitionMap 中的 BeanDefinition 实例化 bean 对象，然后属性赋值，初始化，销毁。
 
-## 案例二: 工厂设计模式 模拟奖品发放
+## 案例二: 工厂设计模式 
+
+模拟奖品发放
 
 ## 案例三: 抽象工厂设计模式
 
@@ -55,6 +57,8 @@ spring 注册 bean 的流程：spring 注册配置文件中的 bean 到 BeanDefi
 模拟扩展 SSO 功能，原始 SSO 只具备账户是否合法，现在扩展鉴权功能
 
 ## 案例十: 责任链模式
+
+模拟618大促期间的业务系统上线审批流程场景，在特定时间增加不同的流程。
 
 ## 案例十一: 观察者模式
 

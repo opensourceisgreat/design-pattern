@@ -19,6 +19,7 @@
         <module>adapter-design-pattern</module>
         <module>bridge-design-pattern</module>
         <module>decorator-design-pattern</module>
+        <module>chainofresponsibility-design-pattern</module>
     </modules>
 
     <dependencies>
